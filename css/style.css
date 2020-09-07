@@ -22,7 +22,7 @@
     padding-left:30px;
     color:#fff;
     font-family: 'Lato', sans-serif;
-    letter-spacing: 2px; 
+    letter-spacing: 1px; 
     line-height: 45px;
     
 }
@@ -32,7 +32,7 @@
     padding-left:30px;
     color:#fff;
     font-family: 'Lato', sans-serif;
-    letter-spacing: 1px; 
+    letter-spacing: 0.5px; 
     line-height: 36px;
     
 }
@@ -96,25 +96,27 @@
 .indexslogan{
     padding-top:230px;
     padding-bottom: 150px;
-    font-family: 'Spectral', serif;
-    font-size: 40px;
-    text-align:center;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 45px;
     color:#f8003d;
     letter-spacing: 2px;
     line-height: 18px;
+    padding-left: 320px;
     white-space:nowrap;
-     background-image: url(/images/indexslogan.jpg);
+    background-image: url(/images/indexslogan.jpg);
     height:439px;
 }
 .indexsloganxs{
     padding-top:80px;
     padding-bottom: 80px;
-    font-size: 24px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 30px;
     letter-spacing: 2px;
     line-height: 12px;
-    color:#f8003d;
+    color:white;
     text-align:center;
     white-space:nowrap;
+    background-color: #f8003d;
 
 }
 
@@ -248,7 +250,7 @@
     padding-left:30px;
     color:#fff;
     font-family: Microsoft JhengHei;
-    letter-spacing: 2px; 
+    letter-spacing: px; 
     line-height: 40px; }
     
 .twindexformulaword{
