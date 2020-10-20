@@ -16,8 +16,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Hoschoc Cosmetics">
 <link rel="author" href="google plus www.hoschoc.com/posts">
-<link href="css/bootstrap.css" rel="stylesheet" >
+<!------css------->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-grid.min.css" rel="stylesheet">
+<link href="css/bootstrap-reboot.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<!-------word-------->
 <link href="https://fonts.googleapis.com/css?family=Lato|Spectral:700" rel="stylesheet">
 <link rel="shortcut icon"
       href="images/hoscocicon.ico">
@@ -27,9 +31,11 @@
 <meta property="og:type" content="Website">
 <meta property="og:description" content="Hoschoc is a cosmetics manufacturing company. We are experienced in supplying a wide range of products at different levels and prices that satisfies every expectation of you.">
 <!-- facebook -->  
+<!------js------->
 <script src="js/jquery-1.11.2.min.js" async></script>
-<script src="js/bootstrap.js" async></script>
- <script src="js/photo.js" async></script>
+<script src="js/bootstrap.min.js" async></script>
+<script src="js/bootstrap.bundle.min.js" async></script>
+<script src="js/other.js"></script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -45,387 +51,396 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!--選單-->
 <header>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
+    <!--------一般--------->
+  <nav class="navbar navbar-expand-lg navbar-light d-none d-sm-block indexfooter fixed-top height:120px;">
+      <div class="container">
+          <a href="index.html" title="hoschoc homepage"><img src="images/Top_BrandHoschoc_2.png"></a>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+             <a class="nav-link" style="color:white" href="about_us.html" title="About Hoschoc">About Us</a>
+                        </li>
+        <li class="nav-item">
+      <a class="nav-link" style="color:white" href="our_service.html" title="Our Service">Our Service</a>
+                        </li>
+        <li class="nav-item">
+         <a class="nav-link" style="color:white" href="formula_LIPS.html">Formula</a>
+                        </li>
+         <li class="nav-item">
+         <a class="nav-link" style="color:white" href="news.html">News</a>
+                        </li>
+      <li class="nav-item"> 
+         <a class="nav-link" style="color:white" href="contact_us.html">Contact Us</a>
+                        </li>
+         <li class="nav-item"><a class="nav-link" href="twindex.html"  style="color:white; text-decoration:underline">繁體中文</a></li>
+    </ul>
+  </div>
+         </div></nav> 
       <!-- 移動顯示 -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a class="navbar-brand navbar-left" href="index.html" title="hoschoc homepage"><img src="images/Top_BrandHoschoc_2.png" class="img-responsive hidden-xs" alt="hoschoclogo"><div class="visible-xs smalltop"> Hoschoc Cosmetic</div></a>
+        <div class="fixed-top indexfooter d-block d-sm-none">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="p-4">
+                    <ul class="nav flex-column btn-group-vertical">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="about_us.html" title="About Hoschoc">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="our_service.html" title="Our Service">Our Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="formula_LIPS.html">Formula</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="news.html">News</a>
+                        </li>
+                         <li class="nav-item"> 
+                             <a class="nav-link" style="color:white" href="contact_us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="twindex.html"  style="color:white; text-decoration:underline">繁體中文</a></li>
+                    </ul>
+    </div>
+            </div>
+            <nav class="navbar navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+                </button><div><a href="index.html"  class="smalltop">Hoschoc Cosmetics</a></div>
+  </nav>
+</div>
         </div>
-      <!--按鈕內容 -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
-          <ul class="nav navbar-nav navbar-right">
-               <li><a href="about_us.html" title="About Hoschoc">About Us</a></li>
-            <li><a href="our_service.html" title="Our Service">Our Service</a></li>
-                <li><a href="formula_LIPS.html">Formula</a></li>
-                <li><a href="news.html">News</a></li>
-            	<li><a href="contact_us.html">Contact Us</a></li>
-               <li style="text-decoration:underline"><a href="twindex.html">繁體中文</a></li>
-            </ul>
-      </div></div></nav></header>
+    </header>
  <!--內容--> 
 <div id="btt"></div>
 <div style="height:100px"></div>
 <div class="container">
     <div class="row">
-        <div class="col-xs-3 col-md-2">
-          <h2><div class="aboutwordh1 hidden-xs">Cosmetics<br>Formula
+           <div class="col-md-2 col-sm-3">
+        <h2><div class="aboutwordh1 d-none d-sm-block">Cosmetics<br>Formula
                 </div></h2>
-        <h4><div class="aboutwordh1 visible-xs">
+        <h4><div class="aboutwordh1 d-block d-sm-none">
             Cosmetics<br>Formula</div></h4>
-           <ul class="nav nav-pills nav-stacked">
-               <li role="presentation"><a href="formula_LIPS.html">LIPS</a></li>
-               <li role="presentation" class="active"><a href="formula_EYES.html" >EYES</a></li>
-               <li role="presentation"><a href="formula_FACE.html">FACE</a></li>
-               <li role="presentation"><a href="formula_CHEEKS.html">CHEEKS</a></li>
-               <li role="presentation"><a href="formula_Other.html">OTHER</a></li>
-            </ul>
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+  <a class="nav-link"  href="formula_LIPS.html" role="tab"  aria-selected="false">LIPS</a>
+  <a class="nav-link active"  href="formula_EYES.html" role="tab" aria-selected="true">EYES</a>
+  <a class="nav-link"   href="formula_FACE.html" role="tab"  aria-selected="false">FACE</a>
+  <a class="nav-link" href="formula_CHEEKS.html" role="tab"  aria-selected="false">CHEEKS</a>
+ <a class="nav-link"   href="formula_Other.html" role="tab" aria-selected="false">OTHER</a>
+</div>
         </div>
     <!--產品-->
-<div class="col-xs-9 col-md-10">
-<img src="images/formula/2018formula_EYE-01.jpg"  class="img-responsive aboutimage">
+<div class="col-md-10 col-sm-9">
+    <img src="images/formula/2018formula_EYE-01.jpg"  class="img-fluid aboutimage">
     <div style="height:20px;"></div>
-<ul class="nav nav-tabs nav-justified">
-   <li role="presentation" class="active"><a href="formula_EYES.html"><h4 class="FOh3">Eyeshadow</h4></a></li>
-    <li role="presentation" ><a href="formula_Eyeliner.html"><h4>Eyeliner</h4></a></li>
-    <li role="presentation"><a href="formula_EMascara.html"><h4 >Mascara</h4></a></li>
-    <li role="presentation"><a href="formula_Eyebrow.html"><h4>Eyebrow</h4></a></li>
-</ul>
-     <div class="row">
+ 
+    <ul class="nav nav-tabs nav-fill">
+  <li class="nav-item">
+    <a class="nav-link active" href="formula_EYES.html"><h5 style="color: red">Eyeshadow</h5></a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="formula_Eyeliner.html"><h5>Eyeliner</h5></a>
+  </li>
+        <li class="nav-item">
+      <a class="nav-link" href="formula_EMascara.html"><h5>Mascara</h5></a>
+  </li>
+        <li class="nav-item">
+      <a class="nav-link" href="formula_Eyebrow.html"><h5>Eyebrow</h5></a>
+  </li>
+    </ul> 
+ <div class="container">   
+ <div class="row">
     <!----------------------2020---------------------------->
-   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-
-            <img src="images/formula/E60_eyeshadow_Neon%20Shadow-01.jpg" alt="Neon Shadow" id="E60" onmouseover="mouseOver()" onmouseout="mouseOut()">
-            <div class="caption">
-        <h3 class="FOh3">Neon Shadow<br></h3>
-        <p>・UV Neon glow for stunning special effects.
-         </p>
-            </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E60_eyeshadow_Neon%20Shadow-01.jpg" alt="Neon Shadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Neon Shadow</h5>
+      <p class="card-text">
+           ・UV Neon glow for stunning special effects.</p>
     </div>
-        </div>
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E59_eyeshadow_Shadow%20Liner-01.jpg" alt="Shadow Liner">
-            <div class="caption">
-        <h3 class="FOh3">Shadow Liner<br></h3>
-        <p>・A blendable eyeliner crayon that can be double as creamy eyeshadow.<br>
-            ・Apply it to your water lines, inner corners, and entire eye lid for a pop of intense color.
-         </p>
-            </div>
+      </div></div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E59_eyeshadow_Shadow%20Liner-01.jpg" alt="Shadow Liner">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Shadow Liner</h5>
+      <p class="card-text">
+           ・A blendable eyeliner crayon that can be double as creamy eyeshadow.<br>
+            ・Apply it to your water lines, inner corners, and entire eye lid for a pop of intense color.</p>
     </div>
-        </div>
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E58_eyeshadow_Crystal%20Eyeshadow-01.jpg" alt="Crystal Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Crystal Eyeshadow<br></h3>
-        <p>・An unique wet-powder.<br>
-            ・Contains over 40% pearl, adds a layer of life, 3D and brilliance to your look.<br><br><br>
-         </p>
-            </div>
+      </div></div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E58_eyeshadow_Crystal%20Eyeshadow-01.jpg" alt="Crystal Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Crystal Eyeshadow</h5>
+      <p class="card-text">
+          ・An unique wet-powder.<br>
+            ・Contains over 40% pearl, adds a layer of life, 3D and brilliance to your look.</p>
     </div>
-        </div>
-         <!-------------------2019------------------------>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E54_Eyeshadow_Galaxy%20eyeshadow-01.jpg" alt="Galaxy Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Galaxy Eyeshadow<br></h3>
-        <p>· An unique soft press eyeshadow powder.<br>
-            · Contains over 40% pearl, adds a layer of life, 3D and brilliance to your look.
-         </p>
-            </div>
+      </div></div>
+ <!-------------------2019------------------------>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E54_Eyeshadow_Galaxy%20eyeshadow-01.jpg" alt="Galaxy Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Galaxy Eyeshadow</h5>
+      <p class="card-text">
+           · An unique soft press eyeshadow powder.<br>
+            · Contains over 40% pearl, adds a layer of life, 3D and brilliance to your look.</p>
     </div>
-        </div>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E48_Eyeshadow_Marbled%20Glitter-01.jpg" alt="Marbled Glitter">
-            <div class="caption">
-        <h3 class="FOh3">Marbled Glitter<br></h3>
-        <p>· Multiple colors glitter to create a spectacular eye look.
-         </p>
-            </div>
+      </div></div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E48_Eyeshadow_Marbled%20Glitter-01.jpg"  alt="Marbled Glitter">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Marbled Glitter</h5>
+      <p class="card-text">
+           · Multiple colors glitter to create a spectacular eye look.</p>
     </div>
-        </div>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E41_Eyeshadow_Cr%C3%A8me-powder%20Eyeshadow-01.jpg" alt="Crème-powder Eyeshadow ">
-            <div class="caption">
-        <h3 class="FOh3">Crème-powder Eyeshadow <br></h3>
-        <p>· In one swipe without creasing, fading or fallout.<br>
-            · Long-wearing and high-pigmented formula with a unique bouncy-like texture.
-         </p>
-            </div>
+      </div></div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E41_Eyeshadow_Cr%C3%A8me-powder%20Eyeshadow-01.jpg" alt="Crème-powder Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Crème-powder Eyeshadow</h5>
+      <p class="card-text">
+           · In one swipe without creasing, fading or fallout.<br>
+            · Long-wearing and high-pigmented formula with a unique bouncy-like texture.</p>
     </div>
-        </div>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E37_Eyeshadow_Metallic%20Eyeshadow%20Mousse-01.jpg" alt="Metallic Eyeshadow Mousse">
-            <div class="caption">
-        <h3 class="FOh3">Metallic Eyeshadow Mousse<br></h3>
-        <p>· Soft and creamy to the touch. <br>
+      </div></div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E37_Eyeshadow_Metallic%20Eyeshadow%20Mousse-01.jpg" alt="Metallic Eyeshadow Mousse">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Metallic Eyeshadow Mousse</h5>
+      <p class="card-text">
+           · Soft and creamy to the touch. <br>
             · A variety of effects, from a light wash of shimmer to an opaque metallic finish.<br>
-            · The formula glides on and blends effortlessly without creasing or smudging on the lids.
-         </p>
-            </div>
+            · The formula glides on and blends effortlessly without creasing or smudging on the lids.</p>
     </div>
-        </div>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E33_Eyeshadow_Sequin%20Cream-01.jpg" alt="Sequin Cream">
-            <div class="caption">
-        <h3 class="FOh3">Sequin Cream<br></h3>
-        <p>· Suitable for face and body.<br>
+      </div></div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E33_Eyeshadow_Sequin%20Cream-01.jpg" alt="Sequin Cream">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Sequin Cream</h5>
+      <p class="card-text">
+           · Suitable for face and body.<br>
             · Use without adhesive.<br>
             · High shine reflection.<br>
-            · Use each shade alone, or combine the glitter  to create a vibrant and magical look.
-         </p>
-            </div>
+            · Use each shade alone, or combine the glitter  to create a vibrant and magical look.</p>
     </div>
-        </div>
-   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E34_Eyeshadow_Dynamic%20Liquid%20Eyeshadow-01.jpg" alt="Dynamic Liquid Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Dynamic Liquid Eyeshadow<br></h3>
-        <p>· A long-wearing formulation.<br>
+      </div></div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E34_Eyeshadow_Dynamic%20Liquid%20Eyeshadow-01.jpg" alt="Dynamic Liquid Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Dynamic Liquid Eyeshadow</h5>
+      <p class="card-text">
+           · A long-wearing formulation.<br>
             · Achieve vibrant eye perfection.<br>
             · Liquid-smooth shade is loaded with glitter and glides on effortlessly. <br>
-            · Look on the bright side with Glitter Goals Liquid Eyeshadow, our new lightweight eye color that packs your lids with attractive luster and sparkle.
-         </p>
-            </div>
+            · Look on the bright side with Glitter Goals Liquid Eyeshadow, our new lightweight eye color that packs your lids with attractive luster and sparkle.</p>
     </div>
-        </div>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E36_Eyeshadow_Matte%20Liquid%20Eyeshadow-01.jpg" alt="Matte Liquid Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Matte Liquid Eyeshadow<br></h3>
-        <p>· A lightweight liquid matte eyeshadow.<br>
+      </div></div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E36_Eyeshadow_Matte%20Liquid%20Eyeshadow-01.jpg" alt="Matte Liquid Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Matte Liquid Eyeshadow</h5>
+      <p class="card-text">
+          · A lightweight liquid matte eyeshadow.<br>
             · Create a flawless, natural look with this. <br>
-            · This silky smooth formula defines and contours the eyes for long wear.
-         </p>
-            </div>
+            · This silky smooth formula defines and contours the eyes for long wear.</p>
     </div>
-        </div>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E57_Eyeshadow_Flash%20Eye%20Pigment-01.jpg" alt="Flash Eye Pigment">
-            <div class="caption">
-        <h3 class="FOh3">Flash Eye Pigment<br></h3>
-        <p> ·  Combines crystal powders and metallic-coated <br>glitter pearls, reflecting light from all angles.<br> 
- ·  Sets in a flash, adding a high-impact sparkle that applies like a gel and dries to a powder.
-         </p>
-            </div>
+      </div></div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E57_Eyeshadow_Flash%20Eye%20Pigment-01.jpg" alt="Flash Eye Pigment">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Flash Eye Pigment</h5>
+      <p class="card-text">
+         ·  Combines crystal powders and metallic-coated <br>glitter pearls, reflecting light from all angles.<br> 
+ ·  Sets in a flash, adding a high-impact sparkle that applies like a gel and dries to a powder.</p>
     </div>
-        </div>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E51_Eyeshadow_Cooling%20Liquid%20Eyeshadow-01.jpg" alt="Cooling Liquid Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Cooling Liquid Eyeshadow<br></h3>
-        <p>· Water-based formula with cooling effects that providing comfortable wear.<br>
-            · Wear alone or layer over powder eyeshadow to build intense effects for iridescent eye looks.<br><br>
-         </p>
-            </div>
+      </div></div>
+  <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E51_Eyeshadow_Cooling%20Liquid%20Eyeshadow-01.jpg" alt="Cooling Liquid Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Cooling Liquid Eyeshadow</h5>
+      <p class="card-text">
+         · Water-based formula with cooling effects that providing comfortable wear.<br>
+            · Wear alone or layer over powder eyeshadow to build intense effects for iridescent eye looks.</p>
     </div>
-        </div>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E44_Eyeshadow_Glow%20Liquid%20Eyeshadow-01.jpg" alt="Glow Liquid Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Glow Liquid Eyeshadow<br></h3>
-        <p>· A lightweight, buildable cream eyeshadow. <br>
-            · Wear alone or layer over powder eyeshadow to build intense effects for iridescent eye looks.
-         </p>
-            </div>
+      </div></div>
+       <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E44_Eyeshadow_Glow%20Liquid%20Eyeshadow-01.jpg" alt="Glow Liquid Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Glow Liquid Eyeshadow</h5>
+      <p class="card-text">
+        · A lightweight, buildable cream eyeshadow. <br>
+            · Wear alone or layer over powder eyeshadow to build intense effects for iridescent eye looks.</p>
     </div>
-        </div>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E38_Eyeliner_Eyeshadow%20Base-01.jpg" alt="Eyeshadow Base">
-            <div class="caption">
-        <h3 class="FOh3">Eyeshadow Base<br></h3>
-        <p>· Helps eye makeup last longer. <br>
+      </div></div>
+       <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E38_Eyeliner_Eyeshadow%20Base-01.jpg" alt="Eyeshadow Base">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Eyeshadow Base</h5>
+      <p class="card-text">
+        · Helps eye makeup last longer. <br>
             · Minimize crease around the eyelids.<br>
-            · It clears up dull and dark skin around the eyes and helps to enhance the eye shadow color to create a vibrant look.
-         </p>
-            </div>
+            · It clears up dull and dark skin around the eyes and helps to enhance the eye shadow color to create a vibrant look.</p>
     </div>
-        </div>
-            <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/E39_Eyeshadow_Eyeshadow%20Glue-01.jpg" alt="Eyeshadow Glue">
-            <div class="caption">
-        <h3 class="FOh3">Eyeshadow Glue<br></h3>
-        <p>· A light and creamy formula that sets and then holds on tight to powder eyeshadow and glitter.<br><br><br>
-         </p>
-            </div>
+      </div></div>
+           <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/E39_Eyeshadow_Eyeshadow%20Glue-01.jpg" alt="Eyeshadow Glue">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Eyeshadow Glue</h5>
+      <p class="card-text">
+        · A light and creamy formula that sets and then holds on tight to powder eyeshadow and glitter.</p>
     </div>
-        </div>
+      </div></div>
          <!---------------------------2018----------------------->
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/66_Eyeshadow%20Palette-01.jpg" alt="Eyeshadow Palette">
-            <div class="caption">
-        <h3 class="FOh3">Eyeshadow Palette<br></h3>
-        <p>A palette of metallic, matte, and glittery eyeshadows that allows you to create a multitude of chic looks.<br></p>
-            </div>
+     <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/66_Eyeshadow%20Palette-01.jpg" alt="Eyeshadow Palette">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Eyeshadow Palette</h5>
+      <p class="card-text">
+        A palette of metallic, matte, and glittery eyeshadows that allows you to create a multitude of chic looks.</p>
     </div>
-        </div>
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/58_Pressed%20Glitter-01.jpg" alt="Pressed Glitter">
-            <div class="caption">
-        <h3 class="FOh3">Pressed Glitter<br></h3>
-        <p>High concentration of glitters for a sparkly diamond shine. Water-based, easy to remove. Paraben free.<br></p>
-            </div>
+      </div></div>
+     <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/58_Pressed%20Glitter-01.jpg" alt="Pressed Glitter">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Pressed Glitter</h5>
+      <p class="card-text">
+        High concentration of glitters for a sparkly diamond shine. Water-based, easy to remove. Paraben free.</p>
     </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/59_Satin%20Cream%20Eyeshadow-01.jpg" alt="Satin Cream Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Satin Cream Eyeshadow<br></h3>
-        <p>High shimmers that gives your eyes an elegant sheen. Added plant & lanolin synthetic wax and Vitamin E to prevent dryness. Paraben free.</p>
-            </div>
+      </div></div>
+     <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/59_Satin%20Cream%20Eyeshadow-01.jpg" alt="Satin Cream Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Satin Cream Eyeshadow</h5>
+      <p class="card-text">
+        High shimmers that gives your eyes an elegant sheen. Added plant & lanolin synthetic wax and Vitamin E to prevent dryness. Paraben free.</p>
     </div>
-        </div>
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/60_Bouncy%20Cream%20Eyeshadow-01.jpg" alt="Bouncy Cream Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Bouncy Cream Eyeshadow<br></h3>
-        <p>Unique bouncy texture. Feels and looks like the finest silk. Paraben free.</p><br>
-            </div>
+      </div></div>
+       <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/60_Bouncy%20Cream%20Eyeshadow-01.jpg" alt="Bouncy Cream Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Bouncy Cream Eyeshadow</h5>
+      <p class="card-text">
+        Unique bouncy texture. Feels and looks like the finest silk. Paraben free.</p>
     </div>
-        </div>
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/61_Marbled%20Cream%20Eyeshadow-01.jpg" alt="Marbled Cream Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Marbled Cream Eyeshadow<br></h3>
-        <p>Water-resistant, light weight, and non-sticky. Gives you a frosty sheen.<br><br></p>
-            </div>
+      </div></div>
+       <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/61_Marbled%20Cream%20Eyeshadow-01.jpg" alt="Marbled Cream Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Marbled Cream Eyeshadow</h5>
+      <p class="card-text">
+       Water-resistant, light weight, and non-sticky. Gives you a frosty sheen.</p>
     </div>
-        </div>
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/62_Eyeshadow%20Mousse-01.jpg" alt="Eyeshadow Mousse">
-            <div class="caption">
-        <h3 class="FOh3">Eyeshadow Mousse<br></h3>
-        <p>Light weight, silky, breathable.<br><br><br><br><br></p>
-            </div>         
+      </div></div>
+       <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/64_Glitter%20Liquid%20Eyeshadow-01.jpg" alt="Glitter Liquid Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Glitter Liquid Eyeshadow</h5>
+      <p class="card-text">
+        Liquid eye color full of glitters to instantly glamorize your eyes.</p>
     </div>
-</div>
-              <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/63_Eyeshadow%20Jelly-01.jpg" alt="Eyeshadow Jelly">
-            <div class="caption">
-        <h3 class="FOh3">Eyeshadow Jelly<br></h3>
-        <p>A gel-cream hybrid. Soft jelly texture smoothly coats the eyes as spread.<br></p>
-            </div>         
+      </div></div>
+         <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/64_Pearl%20Powder%20Liquid%20Eyeshadow-01.jpg" alt="Pearl Powder Liquid Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Pearl Powder Liquid Eyeshadow</h5>
+      <p class="card-text">
+       And opague liquid shimmer that is long wearing and waterproof. Non-smudging!</p>
     </div>
-</div>
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/64_Glitter%20Liquid%20Eyeshadow-01.jpg" alt="Glitter Liquid Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Glitter Liquid Eyeshadow<br></h3>
-        <p>Liquid eye color full of glitters to instantly glamorize your eyes.</p>
-            </div>         
+      </div></div>
+         <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/65_Stylo%20Eyeshadow-01.jpg" alt="Stylo Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Stylo Eyeshadow</h5>
+      <p class="card-text">
+       Pearlescent shine that creates dimension. Smooth, blendable, and waterproof.</p>
     </div>
-</div>
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/64_Pearl%20Powder%20Liquid%20Eyeshadow-01.jpg" alt="Pearl Powder Liquid Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Pearl Powder Liquid Eyeshadow<br></h3>
-        <p>And opague liquid shimmer that is long wearing and waterproof. Non-smudging!</p>
-            </div>         
+      </div></div>
+             <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/67_Baked%20Eyeshadow-01.jpg" alt="Baked Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Baked Eyeshadow</h5>
+      <p class="card-text">
+      High proportion of pearl powder. Brings a metal-like luxury makeup.</p>
     </div>
-</div>
-        <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/65_Stylo%20Eyeshadow-01.jpg" alt="Stylo Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Stylo Eyeshadow<br></h3>
-        <p>Pearlescent shine that creates dimension. Smooth, blendable, and waterproof.</p>
-            </div>         
+      </div></div>
+             <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/56_Eyeshadow%20Roller-01.jpg" alt="Eyeshadow Roller">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Eyeshadow Roller</h5>
+      <p class="card-text">
+      Glittery shimmers in a roller packaging for easy application.</p>
     </div>
-</div>
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/67_Baked%20Eyeshadow-01.jpg" alt="Baked Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Baked Eyeshadow<br></h3>
-        <p>High proportion of pearl powder. Brings a metal-like luxury makeup</p>
-            </div>         
+      </div></div>
+           <div class="col-sm-12 col-md-6 col-lg-4">
+     <div class="card">
+    <img class="card-img-top" src="images/formula/57_Loose%20Eyeshadow-01.jpg" alt="Loose Eyeshadow">
+    <div class="card-body">
+      <h5 class="card-title FOh3">Loose Eyeshadow</h5>
+      <p class="card-text">
+      With different grain diameter powder that reflects layered luster. Long lasting and  high-color release.</p>
     </div>
-</div>
-                <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/56_Eyeshadow%20Roller-01.jpg" alt="Eyeshadow Roller">
-            <div class="caption">
-        <h3 class="FOh3">Eyeshadow Roller<br></h3>
-        <p>Glittery shimmers in a roller packaging for easy application.<br></p>
-            </div>
-    </div>
-        </div>
-         <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/formula/57_Loose%20Eyeshadow-01.jpg" alt="Loose Eyeshadow">
-            <div class="caption">
-        <h3 class="FOh3">Loose Eyeshadow<br></h3>
-        <p>With different grain diameter powder that reflects layered luster. Long lasting and  high-color release.<br></p>
-            </div>
-    </div>
-        </div>
+      </div></div>
     </div>
 </div>
     </div>
-    </div>
-<script type="text/JavaScript">
- var anchor = document.querySelector('a[href="#btt"]')
-var target = document.getElementById('btt')
-anchor.addEventListener('click', function (e) {
-  if (window.scrollTo) {
-    e.preventDefault()
-    window.scrollTo({'behavior': 'smooth', 'top': target.offsetTop})
-  }
-})
-</script>
- <div class="backtotop">
-        <h4><a href="#btt" style="text-decoration:none; color:white;">
-            <span class="glyphicon glyphicon-eject" aria-hidden="true" style="color:white"></span>&nbsp; Back to Top </a></h4>
-        </div>
+    </div></div>
+<button onclick="topFunction()" id="gototop" title="Go to top">Top</button>
 <footer>
 <div class="container-fluid indexfooter">
-    <div itemscope class="row">
-        <div class="hidden-xs col-md-5 indexfootername text-right" >
+    <div class="row">
+        <div class="d-none d-sm-block col-md-5 indexfootername text-right" >
             <h4><span itemprop="name"> Hoschoc  Enterprise  Co.,  Ltd.</span></h4>
-            <small>copyright © 2017 Hoschoc All rights reserved.</small></div>
-         <div class="visible-xs indexfooternamexs text-center" >
+            <small>copyright © 2017 Hoschoc All rights reserved.</small>
+            <br>ISO 22716 / ISO 9001 / SA8000 <br><br>
+            </div>
+         <div class="col-sm-12 d-block d-sm-none indexfooternamexs text-center" >
             <h4> Hoschoc  Enterprise  Co.,  Ltd.</h4>
-            <small>copyright © 2017 Hoschoc All rights reserved.</small></div>
-       <div>
-        <dl class="col-xs-12 col-md-7 dl-horizontal indexfooterinfo ">
-           <dt>E-mail</dt>
-            <dd><span itemprop="email">taffy@hoschoc.com</span></dd> 
-           <dt>TEL</dt>
-            <dd><span itmeprop="tel">886-6-2633066</span></dd> 
-           <dt>Address</dt>
-            <dd><span itemprop="address">No.29, Sec. 1, Zhonghua W. Rd., South Dist., Tainan City 702, Taiwan</span></dd></dl>
+            <small>copyright © 2017 Hoschoc All rights reserved.</small>
+             <br>ISO 22716 / ISO 9001 / SA8000<br><br>
+        </div>
+       <div class="col-md-7 d-none d-sm-block indexfooterinfo">
+        <dl class="row">
+           <dt class="col-md-2" style="text-align:right">E-mail</dt>
+            <dd class="col-md-10"><span itemprop="email">taffy@hoschoc.com</span></dd> 
+           <dt class="col-md-2" style="text-align:right">TEL</dt>
+            <dd class="col-md-10"><span itmeprop="tel">886-6-2633066</span></dd> 
+           <dt class="col-md-2" style="text-align:right">Address</dt>
+            <dd class="col-md-10"><span itemprop="address">No.29, Sec. 1, Zhonghua W. Rd., South Dist., Tainan City 702, Taiwan</span></dd></dl></div>
+        <div class="col-sm-12 d-block d-sm-none indexfooterinfoxs ">
+           <dl class="row">
+           <dt class="col-sm-12">E-mail</dt>
+            <dd class="col-sm-12"><span itemprop="email">taffy@hoschoc.com</span></dd> 
+           <dt class="col-sm-12">TEL</dt>
+            <dd class="col-sm-12"><span itmeprop="tel">886-6-2633066</span></dd> 
+           <dt class="col-sm-12">Address</dt>
+            <dd class="col-sm-12"><span itemprop="address">No.29, Sec. 1, Zhonghua W. Rd., South Dist., Tainan City 702, Taiwan</span></dd></dl>
         </div>
     </div>
     </div></footer>
-    
 
 </body>
 </html>

@@ -16,8 +16,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Hoschoc Cosmetics">
 <link rel="author" href="google plus www.hoschoc.com/posts">
-<link href="css/bootstrap.css" rel="stylesheet" >
+<!------css------->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-grid.min.css" rel="stylesheet">
+<link href="css/bootstrap-reboot.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<!-------word-------->
 <link href="https://fonts.googleapis.com/css?family=Lato|Spectral:700" rel="stylesheet">
 <link rel="shortcut icon"
       href="images/hoscocicon.ico">
@@ -27,8 +31,11 @@
 <meta property="og:type" content="Website">
 <meta property="og:description" content="Hoschoc is a cosmetics manufacturing company. We are experienced in supplying a wide range of products at different levels and prices that satisfies every expectation of you.">
 <!-- facebook -->  
+<!------js------->
 <script src="js/jquery-1.11.2.min.js" async></script>
-<script src="js/bootstrap.js" async></script>
+<script src="js/bootstrap.min.js" async></script>
+<script src="js/bootstrap.bundle.min.js" async></script>
+<script src="js/other.js"></script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -44,49 +51,83 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!--選單-->
 <header>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
+    <!--------一般--------->
+  <nav class="navbar navbar-expand-lg navbar-light d-none d-sm-block indexfooter fixed-top height:120px;">
+      <div class="container">
+          <a href="index.html" title="hoschoc homepage"><img src="images/Top_BrandHoschoc_2.png"></a>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+             <a class="nav-link" style="color:white" href="about_us.html" title="About Hoschoc">About Us</a>
+                        </li>
+        <li class="nav-item">
+      <a class="nav-link" style="color:white" href="our_service.html" title="Our Service">Our Service</a>
+                        </li>
+        <li class="nav-item">
+         <a class="nav-link" style="color:white" href="formula_LIPS.html">Formula</a>
+                        </li>
+         <li class="nav-item">
+         <a class="nav-link" style="color:white" href="news.html">News</a>
+                        </li>
+      <li class="nav-item"> 
+         <a class="nav-link" style="color:white" href="contact_us.html">Contact Us</a>
+                        </li>
+         <li class="nav-item"><a class="nav-link" href="twindex.html"  style="color:white; text-decoration:underline">繁體中文</a></li>
+    </ul>
+  </div>
+         </div></nav> 
       <!-- 移動顯示 -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a class="navbar-brand navbar-left" href="index.html" title="hoschoc homepage"><img src="images/Top_BrandHoschoc_2.png" class="img-responsive hidden-xs" alt="hoschoclogo"><div class="visible-xs smalltop"> Hoschoc Cosmetic</div></a>
+        <div class="fixed-top indexfooter d-block d-sm-none">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="p-4">
+                    <ul class="nav flex-column btn-group-vertical">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="about_us.html" title="About Hoschoc">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="our_service.html" title="Our Service">Our Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="formula_LIPS.html">Formula</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="news.html">News</a>
+                        </li>
+                         <li class="nav-item"> 
+                             <a class="nav-link" style="color:white" href="contact_us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="twindex.html"  style="color:white; text-decoration:underline">繁體中文</a></li>
+                    </ul>
+    </div>
+            </div>
+            <nav class="navbar navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+                </button><div><a href="index.html"  class="smalltop">Hoschoc Cosmetics</a></div>
+  </nav>
+</div>
         </div>
-      <!--按鈕內容 -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
-          <ul class="nav navbar-nav navbar-right">
-               <li><a href="about_us.html" title="About Hoschoc">About Us</a></li>
-            <li><a href="our_service.html" title="Our Service">Our Service</a></li>
-                <li><a href="formula_LIPS.html">Formula</a></li>
-                <li><a href="news.html">News</a></li>
-            	<li><a href="contact_us.html">Contact Us</a></li>
-               <li style="text-decoration:underline"><a href="twindex.html">繁體中文</a></li>
-            </ul>
-      </div></div></nav></header>
+    </header>
  <!--內容-->
 <div id="btt"></div>
 <div style="height:100px"></div>
 <div>
 <div class="container">
     <div class="row aboutall">
-        <div class="col-xs-12 col-md-3">
-           <ul class="nav nav-pills nav-stacked">
-               <li role="presentation" class="active"><a href="#sec1">Services and Products</a></li>
-               <li role="presentation"><a href="#sec2">Quality Assurance</a></li>
-               <li role="presentation"><a href="#sec3">Product Range</a></li>
-            </ul>
-        </div>
-     <div class="col-xs-12 col-md-9">
+        <div class="col-md-3 col-sm-12">
+               <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active"  href="#sec1" data-toggle="tab"role="tab" aria-selected="true">Services and Products</a>
+      <a class="nav-link"  href="#sec2" aria-selected="false">Quality Assurance</a>
+      <a class="nav-link"  href="#sec3"  aria-selected="false">Product Range</a>
+            </div></div>
+     <div class="col-md-9 col-sm-12">
             <a id="sec1"></a>
-            <img src="images/service_os.jpg" class="aboutimage img-responsive"
+            <img src="images/service_os.jpg" class="aboutimage img-fluid"
                  alt="hoschoc service and product">
         <div class="aboutwordh1"><h1>Services and Products<br></h1>
             </div>
-         <h4><section class="aboutinner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We provide complete services from concept development to the final fruition. <br>From the initial consultation about product requirements and expectations, followed by the design and trial run of the product, to the final mass production, we are all you need.<br><br>
+         <h5><section class="aboutinner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We provide complete services from concept development to the final fruition. <br>From the initial consultation about product requirements and expectations, followed by the design and trial run of the product, to the final mass production, we are all you need.<br><br>
         <ul>
             <li>Cosmetics, Mixing, Filling, Packaging</li>
             <li>Finished Products</li>
@@ -97,52 +138,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li>Marketing</li>
              </ul>
              <br>
-             </section></h4>
-         <div class="hidden-xs">
-         <img src="images/service.jpg" class="aboutimage img-responsive" alt="serviceflowchat">
+             </section></h5>
+         <div class="d-none d-sm-block">
+         <img src="images/service.jpg" class="aboutimage img-fluid" alt="serviceflowchat">
          </div>
-         <div class="visible-xs">
-         <img src="images/service_cell-01.jpg" class="aboutimage img-responsive" alt="serviceflowchat"></div>
+         <div class="d-block d-sm-none text-center">
+         <img src="images/service_cell-01.jpg" class="aboutimage img-fluid" alt="serviceflowchat"></div>
          <div style='height:50px;'></div>
          
          <a id="sec2"></a>
          <div class="aboutwordh1"><h1>Quality Assurance<br></h1>
             </div>
-         <h4><section class="aboutinner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	The management strives for perfection in production procedure and quality control assurance in order to give clients our all-out effort in this intense market. <br><br>
-             <li>All raw materials purchased from the top 500 suppliers, such as SUN CHEMICAL Engelhard, strahl&pitseh, Merch, Kingfisher, Kahl, CRODA…etc.</li> 
+         <h5><section class="aboutinner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	The management strives for perfection in production procedure and quality control assurance in order to give clients our all-out effort in this intense market. <br><br>
+             <li>All raw materials purchased from the top 500 suppliers, such as SUN CHEMICAL Engelhard, strahl&pitseh, Merck, Kingfisher, Kahl, CRODA…etc.</li> 
              <li>All materials we purchase will get through the TQC, and stored at proper temperature and humidity to avoid any metamorphism. </li>
              <li>All our staff are trained strictly to ensure the quality control in each production station. </li>
              <li>All the raw materials, semi-products and finished products must undergo a variety of tests.</li> 
              <li>Outsourced suppliers must pass our quality evaluation and tests to ensure all delivery products are in qualified/good condition.</li> 
 <br>
-             </section></h4>
-        <img src="images/service_R&D.jpg"  class="img-responsive aboutimage" alt="qcphoto">
-         <h4><p class="serviceQA">Quality Assurance</p></h4>
-         <h4><p class="serviceQA">Quality Control</p></h4>
-         <h5><p class="serviceQAsmall">IQC (In-coming Quality Control)<br>Quality inspection for in-coming raw materials which are used to make products</p></h5>
-          <h5><p class="serviceQAsmall">IPQC (In-Process Quality Control)<br>QC content inspection、Stability / compatibility test、heavy metal test、microbial test、and antimicrobial protection test are performed in the manufacturing steps to assure the safety of the products. </p></h5>
-           <h5><p class="serviceQAsmall">FQC (Finished Product Quality Control)<br>FQC is performed to avoid reject products are released to customers. This could protect the credibility of our enterprise and customers.</p></h5>
-         <h4><p class="serviceQA">Quality Management</p></h4>
-         <h5><p class="serviceQAsmall">Quality Maintenance<br>Work for product quality performance requirements, including customer、law、regulation requirements.</p></h5>
-          <h5><p class="serviceQAsmall">Instrument Calibration<br>Instrument calibration is performed periodically to assure the accuracy of instrument measurement and inspection quality.</p></h5>
-          <h5><p class="serviceQAsmall">Environmental maintenance<br>Follow the relevant building laws and regulations and maintain the appropriate and adequate distance to avoid pollution and fire.  <br>
+             </section></h5>
+        <img src="images/service_R&D.jpg"  class="img-fluid aboutimage" alt="qcphoto">
+         <h5><p class="serviceQA">Quality Assurance</p></h5>
+         <h5><p class="serviceQA">Quality Control</p></h5>
+         <h6><p class="serviceQAsmall">IQC (In-coming Quality Control)<br>Quality inspection for in-coming raw materials which are used to make products</p></h6>
+          <h6><p class="serviceQAsmall">IPQC (In-Process Quality Control)<br>QC content inspection、Stability / compatibility test、heavy metal test、microbial test、and antimicrobial protection test are performed in the manufacturing steps to assure the safety of the products. </p></h6>
+           <h6><p class="serviceQAsmall">FQC (Finished Product Quality Control)<br>FQC is performed to avoid reject products are released to customers. This could protect the credibility of our enterprise and customers.</p></h6>
+         <h5><p class="serviceQA">Quality Management</p></h5>
+         <h6><p class="serviceQAsmall">Quality Maintenance<br>Work for product quality performance requirements, including customer、law、regulation requirements.</p></h6>
+          <h6><p class="serviceQAsmall">Instrument Calibration<br>Instrument calibration is performed periodically to assure the accuracy of instrument measurement and inspection quality.</p></h6>
+          <h6><p class="serviceQAsmall">Environmental maintenance<br>Follow the relevant building laws and regulations and maintain the appropriate and adequate distance to avoid pollution and fire.  <br>
               Disinfect workplaces, air filtration systems and manufacturing equipment and equipment periodically. Keep the environment clean and ventilated. Implement  health management thoroughly.<br>
-              Quality Control and managemt follow the requirements of ISO 22716:2007 (Cosmetics -- Good Manufacturing Practices (GMP) -- Guidelines on Good Manufacturing Practices).</p></h5>
+              Quality Control and managemt follow the requirements of ISO 22716:2007 (Cosmetics -- Good Manufacturing Practices (GMP) -- Guidelines on Good Manufacturing Practices).</p></h6>
          <br><br>
-            <img src="images/service_line.jpg"  class="img-responsive aboutimage" alt="qcphoto">
+            <img src="images/service_line.jpg"  class="img-fluid aboutimage" alt="qcphoto">
          <br>
          <div style='height:80px;'></div>
         <a id="sec3"></a>
          <div class="aboutwordh1"><h1>Product Range<br></h1>
             </div>
-         <h4><article class="aboutinner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Comprehensive selection of color makeup:<br><ul>
+         <h5><article class="aboutinner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Comprehensive selection of color makeup:<br><ul>
              <li>Face – Primer, Foundation, Loose and Pressed Powder, Concealer, Blusher, Primer, Highlighter, etc.</li>
              <li>Eye – Eyeshadow, Mascara, Eyeliner, Eyebrow palette, etc.</li>
              <li>Lip – Lipstick, Liquid Lipstick, Lip Gloss, Lip balm, Lip Scrub, etc.
              </li>
              <li>Other – Body Oil, Remover , etc.</li>
-             </ul> </article></h4>
-        <img src="images/service_product.jpg"  class="img-responsive aboutimage" alt="qcphoto">
+             </ul> </article></h5>
+        <img src="images/service_product.jpg"  class="img-fluid" alt="qcphoto">
    
             <div style='height:100px;'></div>
     </div>
@@ -150,41 +191,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
              
     </div>
     </div>
-<script type="text/JavaScript">
- var anchor = document.querySelector('a[href="#btt"]')
-var target = document.getElementById('btt')
-anchor.addEventListener('click', function (e) {
-  if (window.scrollTo) {
-    e.preventDefault()
-    window.scrollTo({'behavior': 'smooth', 'top': target.offsetTop})
-  }
-})
-</script>
- <div class="backtotop">
-        <h4><a href="#btt" style="text-decoration:none; color:white;">
-            <span class="glyphicon glyphicon-eject" aria-hidden="true" style="color:white"></span>&nbsp; Back to Top </a></h4>
-        </div>
+<button onclick="topFunction()" id="gototop" title="Go to top">Top</button>
 <footer>
 <div class="container-fluid indexfooter">
-    <div itemscope class="row">
-        <div class="hidden-xs col-md-5 indexfootername text-right" >
+    <div class="row">
+        <div class="d-none d-sm-block col-md-5 indexfootername text-right" >
             <h4><span itemprop="name"> Hoschoc  Enterprise  Co.,  Ltd.</span></h4>
-            <small>copyright © 2017 Hoschoc All rights reserved.</small></div>
-         <div class="visible-xs indexfooternamexs text-center" >
+            <small>copyright © 2017 Hoschoc All rights reserved.</small>
+            <br>ISO 22716 / ISO 9001 / SA8000 <br><br>
+            </div>
+         <div class="col-sm-12 d-block d-sm-none indexfooternamexs text-center" >
             <h4> Hoschoc  Enterprise  Co.,  Ltd.</h4>
-            <small>copyright © 2017 Hoschoc All rights reserved.</small></div>
-       <div>
-        <dl class="col-xs-12 col-md-7 dl-horizontal indexfooterinfo ">
-           <dt>E-mail</dt>
-            <dd><span itemprop="email">taffy@hoschoc.com</span></dd> 
-           <dt>TEL</dt>
-            <dd><span itmeprop="tel">886-6-2633066</span></dd> 
-           <dt>Address</dt>
-            <dd><span itemprop="address">No.29, Sec. 1, Zhonghua W. Rd., South Dist., Tainan City 702, Taiwan</span></dd></dl>
+            <small>copyright © 2017 Hoschoc All rights reserved.</small>
+             <br>ISO 22716 / ISO 9001 / SA8000<br><br>
+        </div>
+       <div class="col-md-7 d-none d-sm-block indexfooterinfo">
+        <dl class="row">
+           <dt class="col-md-2" style="text-align:right">E-mail</dt>
+            <dd class="col-md-10"><span itemprop="email">taffy@hoschoc.com</span></dd> 
+           <dt class="col-md-2" style="text-align:right">TEL</dt>
+            <dd class="col-md-10"><span itmeprop="tel">886-6-2633066</span></dd> 
+           <dt class="col-md-2" style="text-align:right">Address</dt>
+            <dd class="col-md-10"><span itemprop="address">No.29, Sec. 1, Zhonghua W. Rd., South Dist., Tainan City 702, Taiwan</span></dd></dl></div>
+        <div class="col-sm-12 d-block d-sm-none indexfooterinfoxs ">
+           <dl class="row">
+           <dt class="col-sm-12">E-mail</dt>
+            <dd class="col-sm-12"><span itemprop="email">taffy@hoschoc.com</span></dd> 
+           <dt class="col-sm-12">TEL</dt>
+            <dd class="col-sm-12"><span itmeprop="tel">886-6-2633066</span></dd> 
+           <dt class="col-sm-12">Address</dt>
+            <dd class="col-sm-12"><span itemprop="address">No.29, Sec. 1, Zhonghua W. Rd., South Dist., Tainan City 702, Taiwan</span></dd></dl>
         </div>
     </div>
     </div></footer>
-    
 
 </body>
 </html>

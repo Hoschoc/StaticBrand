@@ -16,8 +16,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Hoschoc Cosmetics">
 <link rel="author" href="google plus www.hoschoc.com/posts">
-<link href="css/bootstrap.css" rel="stylesheet" >
+<!------css------->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-grid.min.css" rel="stylesheet">
+<link href="css/bootstrap-reboot.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<!-------word-------->
 <link href="https://fonts.googleapis.com/css?family=Lato|Spectral:700" rel="stylesheet">
 <link rel="shortcut icon"
       href="images/hoscocicon.ico">
@@ -27,8 +31,10 @@
 <meta property="og:type" content="Website">
 <meta property="og:description" content="Hoschoc is a cosmetics manufacturing company. We are experienced in supplying a wide range of products at different levels and prices that satisfies every expectation of you.">
 <!-- facebook -->  
+<!------js------->
 <script src="js/jquery-1.11.2.min.js" async></script>
-<script src="js/bootstrap.js" async></script>
+<script src="js/bootstrap.min.js" async></script>
+<script src="js/bootstrap.bundle.min.js" async></script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -46,83 +52,124 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!--選單-->
 <header>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
+    <!--------一般--------->
+  <nav class="navbar navbar-expand-lg navbar-light d-none d-sm-block indexfooter fixed-top height:120px;">
+      <div class="container">
+          <a href="index.html" title="hoschoc homepage"><img src="images/Top_BrandHoschoc_2.png"></a>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+             <a class="nav-link" style="color:white" href="about_us.html" title="About Hoschoc">About Us</a>
+                        </li>
+        <li class="nav-item">
+      <a class="nav-link" style="color:white" href="our_service.html" title="Our Service">Our Service</a>
+                        </li>
+        <li class="nav-item">
+         <a class="nav-link" style="color:white" href="formula_LIPS.html">Formula</a>
+                        </li>
+         <li class="nav-item">
+         <a class="nav-link" style="color:white" href="news.html">News</a>
+                        </li>
+      <li class="nav-item"> 
+         <a class="nav-link" style="color:white" href="contact_us.html">Contact Us</a>
+                        </li>
+         <li class="nav-item"><a class="nav-link" href="twindex.html"  style="color:white; text-decoration:underline">繁體中文</a></li>
+    </ul>
+  </div>
+         </div></nav> 
       <!-- 移動顯示 -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a class="navbar-brand navbar-left" href="index.html" title="hoschoc homepage"><img src="images/Top_BrandHoschoc_2.png" class="img-responsive hidden-xs" alt="hoschoclogo"><div class="visible-xs smalltop"> Hoschoc Cosmetic</div></a>
+        <div class="fixed-top indexfooter d-block d-sm-none">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="p-4">
+                    <ul class="nav flex-column btn-group-vertical">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="about_us.html" title="About Hoschoc">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="our_service.html" title="Our Service">Our Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="formula_LIPS.html">Formula</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="news.html">News</a>
+                        </li>
+                         <li class="nav-item"> 
+                             <a class="nav-link" style="color:white" href="contact_us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="twindex.html"  style="color:white; text-decoration:underline">繁體中文</a></li>
+                    </ul>
+    </div>
+            </div>
+            <nav class="navbar navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+                </button><div><a href="index.html"  class="smalltop">Hoschoc Cosmetics</a></div>
+  </nav>
+</div>
         </div>
-      <!--按鈕內容 -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
-          <ul class="nav navbar-nav navbar-right">
-               <li><a href="about_us.html" title="About Hoschoc">About Us</a></li>
-            <li><a href="our_service.html" title="Our Service">Our Service</a></li>
-                <li><a href="formula_LIPS.html">Formula</a></li>
-                <li><a href="news.html">News</a></li>
-            	<li><a href="contact_us.html">Contact Us</a></li>
-               <li style="text-decoration:underline"><a href="twindex.html">繁體中文</a></li>
-            </ul>
-      </div></div></nav></header>
+    </header>
 <!--內容-->  
 <div id="btt"></div>
 <div style="height:100px"></div>
     <div class="container">
     <div class="row">
-        <div class="col-xs-12">
-    <img src="images/news_banner.jpg"  class="img-responsive aboutimage" alt="photo">
+        <div class="col-sm-12">
+    <img src="images/news_banner.jpg"  class="img-fluid aboutimage" alt="photo">
             <div class="aboutwordh1"><h1><strong>News</strong><br></h1>
-            </div>   
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-     <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwentyFour">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyFour" aria-expanded="true" aria-controls="collapseTwentyFour">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2020/10/1 Happy Wid Autumn Festival</h4>
-        </a>
-      </h4>
+            </div>  
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingTWENTYFOUR">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTWENTYFOUR" aria-expanded="true" aria-controls="collapseTWENTYFOUR">
+          <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+</svg>2020/10/1 Happy Wid Autumn Festival </h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseTwentyFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyFour">
-      <div class="panel-body">
-          <img src="images/index_topbanner_26.jpg" class="img-responsive" alt="Happy Wid Autumn Festival">
+
+    <div id="collapseTWENTYFOUR" class="collapse show" aria-labelledby="headingTWENTYFOUR" data-parent="#accordionExample">
+      <div class="card-body">
+        <img src="images/index_topbanner_26.jpg" class="img-fluid" alt="Happy Wid Autumn Festival">
           Happy Wid Autumn Festival
       </div>
     </div>
-  </div>  
-    <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwentyThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyThree" aria-expanded="true" aria-controls="collapseTwentyThree">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2020/09/8-10 Professional Beauty Worldwide</h4>
-        </a>
-      </h4>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTWENTYTHREE">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTWENTYTHREE" aria-expanded="false" aria-controls="collapseTWENTYTHREE">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+                2020/09/8-10 Professional Beauty Worldwide</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseTwentyThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyThree">
-      <div class="panel-body">
-          <img src="images/index_topbanner_25.jpg" class="img-responsive" alt="Professional Beauty Worldwide">
+    <div id="collapseTWENTYTHREE" class="collapse" aria-labelledby="headingTWENTYTHREE" data-parent="#accordionExample">
+      <div class="card-body">
+              <img src="images/index_topbanner_25.jpg" class="img-fluid" alt="Professional Beauty Worldwide">
           Professional Beauty Worldwide
       </div>
     </div>
-  </div>  
-          <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwentyTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyTwo" aria-expanded="true" aria-controls="collapseTwentyTwo">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="false" style="color:red"></span>
-                2020/06/22 Prevention Series</h4>
-        </a>
-      </h4>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTWENTYTWO">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTWENTYTWO" aria-expanded="false" aria-controls="collapseTWENTYTWO"><h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+            2020/06/22 Prevention Series</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseTwentyTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyTwo">
-      <div class="panel-body">
-          <img src="images/index_topbanner_24.jpg" class="img-responsive" alt="Prevention Series">
+    <div id="collapseTWENTYTWO" class="collapse" aria-labelledby="headingTWENTYTWO" data-parent="#accordionExample">
+      <div class="card-body">
+        <img src="images/index_topbanner_24.jpg" class="img-fluid" alt="Prevention Series">
           <h3 class="FOh3">Anti-bacterial Hand Wash</h3> <br>
           ・Wash away bacteria with effective plant-based cleansers, easy to wash off.<br>
           ・With hydrating ingredients to keep the skin from drying up rapidly.<br>
@@ -152,285 +199,328 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h3 class="FOh3">Tinted Lip Balm</h3><br>
           ・Gives your lips a subtle tint for all-day wear and won’t leave your lips with a weird faded ring of color.<br>
           ・Infused with a super-hydrating blend of avocado, jojoba, and grapeseed oils.<br>
-          
       </div>
     </div>
   </div>
-      <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwentyOne">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyOne" aria-expanded="true" aria-controls="collapseTwentyOne">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="false" style="color:red"></span>
-                2020/02/11-22 Make up in Los Angeles C58</h4>
-        </a>
-      </h4>
+    <div class="card">
+    <div class="card-header" id="headingTWENTYONE">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTWENTYONE" aria-expanded="false" aria-controls="collapseTWENTYONE">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+                2020/02/11-22 Make up in Los Angeles C58</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseTwentyOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwentyOne">
-      <div class="panel-body">
-          <img src="images/index_topbanner_23.jpg" class="img-responsive" alt="Make up in Los Angeles C58">
+    <div id="collapseTWENTYONE" class="collapse" aria-labelledby="headingTWENTYONE" data-parent="#accordionExample">
+      <div class="card-body">
+                 <img src="images/index_topbanner_23.jpg" class="img-fluid" alt="Make up in Los Angeles C58">
           Make up in Los Angeles C58
       </div>
     </div>
   </div>
-    <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwenty">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2020/01/23 Happy Chinese New Year</h4>
-        </a>
-      </h4>
+    <div class="card">
+    <div class="card-header" id="headingEIGHTEEN">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEIGHTEEN" aria-expanded="false" aria-controls="collapseEIGHTEEN">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+                2020/01/23 Happy Chinese New Year</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseTwenty" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwenty">
-      <div class="panel-body">
-          <img src="images/index_topbanner_22.jpg" class="img-responsive" alt="Happy Chinese New Year">
+    <div id="collapseEIGHTEEN" class="collapse" aria-labelledby="headingEIGHTEEN" data-parent="#accordionExample">
+      <div class="card-body">
+            <img src="images/index_topbanner_22.jpg" class="img-fluid" alt="Happy Chinese New Year">
           Happy Chinese New Year
       </div>
     </div>
   </div>
-    <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingNineteen">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2019/12/20 Happy Holiday</h4>
-        </a>
-      </h4>
+    <div class="card">
+    <div class="card-header" id="headingSEVENTEEN">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSEVENTEEN" aria-expanded="false" aria-controls="collapseSEVENTEEN">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+                2019/12/20 Happy Holiday</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseNineteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNineteen">
-      <div class="panel-body">
-          <img src="images/index_topbanner_21.jpg" class="img-responsive" alt="2019/12/20 Happy Holiday">
+    <div id="collapseSEVENTEEN" class="collapse" aria-labelledby="headingSEVENTEEN" data-parent="#accordionExample">
+      <div class="card-body">
+           <img src="images/index_topbanner_21.jpg" class="img-fluid" alt="2019/12/20 Happy Holiday">
           Happy Holiday
       </div>
     </div>
   </div>
-        <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingEighteen">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2019/11/12-14 2019 COSMOPACK ASIA HONG KONG 6-F18</h4>
-        </a>
-      </h4>
+       <div class="card">
+    <div class="card-header" id="headingSIXTEEN">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSIXTEEN" aria-expanded="false" aria-controls="collapseSIXTEEN">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+                2019/11/12-14 2019 COSMOPACK ASIA HONG KONG 6-F18</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseEighteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEighteen">
-      <div class="panel-body">
-          <img src="images/index_topbanner_19.jpg" class="img-responsive" alt="2019/11/12-14 2019 COSMOPACK ASIA HONG KONG 6-F18">
+    <div id="collapseSIXTEEN" class="collapse" aria-labelledby="headingSIXTEEN" data-parent="#accordionExample">
+      <div class="card-body">
+           <img src="images/index_topbanner_19.jpg" class="img-fluid" alt="2019/11/12-14 2019 COSMOPACK ASIA HONG KONG 6-F18">
           30 NEW FORMULAS DEBUT OF 2019 this season!<br>
           Welcome and meet us!!
       </div>
     </div>
   </div>
-    <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingSeventeen">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="false" style="color:red"></span>
-                2019/4/8 Our factory is SA8000 certified!</h4>
-        </a>
-      </h4>
+    <div class="card">
+    <div class="card-header" id="headingFIFTEEN">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFIFTEEN" aria-expanded="false" aria-controls="collapseFIFTEEN">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+                2019/4/8 Our factory is SA8000 certified!</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseSeventeen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeventeen">
-      <div class="panel-body">
-          <img src="images/index_topbanner_17.jpg" class="img-responsive" alt="Our factory is SA8000 certified!">
+    <div id="collapseFIFTEEN" class="collapse" aria-labelledby="headingFIFTEEN" data-parent="#accordionExample">
+      <div class="card-body">
+                <img src="images/index_topbanner_17.jpg" class="img-fluid" alt="Our factory is SA8000 certified!">
       </div>
     </div>
   </div>
-    <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingSixteen">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="false" style="color:red"></span>
-                2019/3/14-17 COSMOPROF WORLDWIDE BOLOGNA 29A B2</h4>
-        </a>
-      </h4>
+     <div class="card">
+    <div class="card-header" id="headingFOURTEEN">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFOURTEEN" aria-expanded="false" aria-controls="collapseFOURTEEN">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+               2019/3/14-17 COSMOPROF WORLDWIDE BOLOGNA 29A B2</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseSixteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSixteen">
-      <div class="panel-body">
-          <img src="images/index_topbanner_16.jpg" class="img-responsive" alt="2019 COSMOPROF 29A B2">
+    <div id="collapseFOURTEEN" class="collapse" aria-labelledby="headingFOURTEEN" data-parent="#accordionExample">
+      <div class="card-body">
+                <img src="images/index_topbanner_16.jpg" class="img-fluid" alt="2019 COSMOPROF 29A B2">
           40 NEW FORMULAS DEBUT OF 2019!<br>
           Welcome and meet us!!
       </div>
     </div>
   </div>
-    
-      <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTen">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2019/02/01 Happy New Year</h4>
-        </a>
-      </h4>
+      <div class="card">
+    <div class="card-header" id="headingTHIRTEEN">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTHIRTEEN" aria-expanded="false" aria-controls="collapseTHIRTEEN">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+               2019/02/01 Happy New Year</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
-      <div class="panel-body">
-          <img src="images/index_topbanner_15.jpg" class="img-responsive" alt="happy holiday">
+    <div id="collapseTHIRTEEN" class="collapse" aria-labelledby="headingTHIRTEEN" data-parent="#accordionExample">
+      <div class="card-body">
+                <img src="images/index_topbanner_15.jpg" class="img-fluid" alt="happy holiday">
           Happy New Year
       </div>
     </div>
   </div>
-          <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingNine">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2018/12/20 Happy Holiday</h4>
-        </a>
-      </h4>
+    <div class="card">
+    <div class="card-header" id="headingTWELVE">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTWELVE" aria-expanded="false" aria-controls="collapseTWELVE">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+              2018/12/20 Happy Holiday</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
-      <div class="panel-body">
-          <img src="images/index_topbanner_14.jpg" class="img-responsive" alt="happy holiday">
+    <div id="collapseTWELVE" class="collapse" aria-labelledby="headingTWELVE" data-parent="#accordionExample">
+      <div class="card-body">
+                      <img src="images/index_topbanner_14.jpg" class="img-fluid" alt="happy holiday">
           May the season's joy fill you all the year round.
       </div>
     </div>
   </div>
-       <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingEight">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2018/11/13-15 COSMOPACK ASIA in AsiaWorld-Expo 3-D23</h4>
-        </a>
-      </h4>
+     <div class="card">
+    <div class="card-header" id="headingELEVEN">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseELEVEN" aria-expanded="false" aria-controls="collapseELEVEN">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+               2018/11/13-15 COSMOPACK ASIA in AsiaWorld-Expo 3-D23</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
-      <div class="panel-body">
-          <img src="images/index_topbanner_13.jpg" class="img-responsive" alt="3-D23">
+    <div id="collapseELEVEN" class="collapse" aria-labelledby="headingELEVEN" data-parent="#accordionExample">
+      <div class="card-body">
+                      <img src="images/index_topbanner_13.jpg" class="img-fluid" alt="3-D23">
           Thank you for coming.<br>We look forward to our next meeting.
       </div>
     </div>
   </div>
-     <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingSix">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-         <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2018/6/28 Hoschoc Enterprise Co., Ltd. Awarded ISO 22716</h4>
-        </a>
-      </h4>
+         <div class="card">
+    <div class="card-header" id="headingTEN">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTEN" aria-expanded="false" aria-controls="collapseTEN">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+              2018/6/28 Hoschoc Enterprise Co., Ltd. Awarded ISO 22716</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-      <div class="panel-body">
-          <img src="images/index_topbanner_10.jpg" class="img-responsive" alt="iso22716 & iso 9001">
+    <div id="collapseTEN" class="collapse" aria-labelledby="headingTEN" data-parent="#accordionExample">
+      <div class="card-body">
+                      <img src="images/index_topbanner_10.jpg" class="img-fluid" alt="iso22716 & iso 9001">
           Hoschoc Enterprise Co., Ltd. has been awarded ISO 22716 by Bureau Veritas Certification (BVC). ISO 22716 - Cosmetics Good Manufacturing Practices are a set of hands-on advice, operational rules and organizational guidelines especially focused on human, technical and administrative factors affecting product quality. ISO 22716 is the standard describing the Cosmetics Good Manufacturing Practices. It has been written in collaboration with cosmetics industry professionals and promotes best-in-class methods. The scope of ISO 22716 is not only limited to production activities but also includes control, storage and expedition. 
 
 Hoschoc Enterprise has expanded from cosmetic formulation to the design and manufacture of packaging components to offer its customers a complete, integrated line of products and services. We are continually building and recruiting to maintain and improve the 35-year experience behind Hoschoc. With the addition of ISO 22716 under our belt, we anticipate more exposure of Hoschoc products in the international stage of cosmetics manufacturing! 
-
- 
       </div>
     </div>
   </div>
- <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFive">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-           <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2018/3/16-19 COSMOPROF WORLDWIDE BOLOGNA Hall 29A B2</h4>
-        </a>
-      </h4>
+     <div class="card">
+    <div class="card-header" id="headingNINE">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNINE" aria-expanded="false" aria-controls="collapseNINE">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+            2018/5/8-10 beautyworld Middle East SA-B18</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-      <div class="panel-body">
-      Thank you for coming.<br>We look forward to our next meeting.
+    <div id="collapseNINE" class="collapse" aria-labelledby="headingNINE" data-parent="#accordionExample">
+      <div class="card-body">
+                      <img src="images/index_topbanner_7.jpg" class="img-fluid" alt="COSMOPROF WORLDWIDE BOLOGNA Hall 29A B">
+       Thank you for coming.<br>We look forward to our next meeting.
       </div>
     </div>
   </div>
-<div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFour">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-           <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2017/12 Merry Christmas and Happy New Year! </h4>
-        </a>
-      </h4>
+     <div class="card">
+    <div class="card-header" id="headingEIGHT">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEIGHT" aria-expanded="false" aria-controls="collapseEIGHT">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+            2018/3/16-19 COSMOPROF WORLDWIDE BOLOGNA Hall 29A B2</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-      <div class="panel-body">
-      May the season's joy fill you all the year round.
+    <div id="collapseEIGHT" class="collapse" aria-labelledby="headingEIGHT" data-parent="#accordionExample">
+      <div class="card-body">
+                      <img src="images/index_topbanner_6.jpg" class="img-fluid" alt="COSMOPROF WORLDWIDE BOLOGNA Hall 29A B">
+       Thank you for coming.<br>We look forward to our next meeting.
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-           <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2017/11/14-16 COSMOPACK ASIA HONG KONG Hall 3-D23</h4>
-        </a>
-      </h4>
+    <div class="card">
+    <div class="card-header" id="headingSEVEN">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSEVEN" aria-expanded="false" aria-controls="collapseSEVEN">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+            2017/12 Merry Christmas and Happy New Year!</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        Thank you for coming.<br>We look forward to our next meeting.
+    <div id="collapseSEVEN" class="collapse" aria-labelledby="headingSEVEN" data-parent="#accordionExample">
+      <div class="card-body">
+       May the season's joy fill you all the year round.
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-           <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2017/03/17-20  COSMOPROF WORLDWIDE BOLOGNA Hall 29A Booth D10</h4>
-        </a>
-      </h4>
+      <div class="card">
+    <div class="card-header" id="headingSIX">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSIX" aria-expanded="false" aria-controls="collapseSIX">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+            2017/11/14-16 COSMOPACK ASIA HONG KONG Hall 3-D23</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        Thank you for coming.<br>We look forward to our next meeting.
+    <div id="collapseSIX" class="collapse" aria-labelledby="headingSIX" data-parent="#accordionExample">
+      <div class="card-body">
+           <img src="images/index_topbanner_1.jpg" class="img-fluid" alt=" COSMOPACK ASIA HONG KONG Hall 3-D23">
+       Thank you for coming.<br>We look forward to our next meeting.
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            <h4> <span class="glyphicon glyphicon-play" aria-hidden="true" style="color:red"></span>
-                2017/3
-           Welcome to Hoschoc!
-           </h4>
-        </a>
-      </h4>
+    <div class="card">
+    <div class="card-header" id="headingFIVE">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFIVE" aria-expanded="false" aria-controls="collapseFIVE">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+           2017/03/17-20  COSMOPROF WORLDWIDE BOLOGNA Hall 29A Booth D10</h5>
+        </button>
+      </h2>
     </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
+    <div id="collapseFIVE" class="collapse" aria-labelledby="headingFIVE" data-parent="#accordionExample">
+      <div class="card-body">
+       Thank you for coming.<br>We look forward to our next meeting.
       </div>
     </div>
   </div>
-</div>   
+        <div class="card">
+    <div class="card-header" id="headingONE">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseONE" aria-expanded="false" aria-controls="collapseONE">
+            <h5 style="color:#696969">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
+           2017/03  Welcome to Hoschoc!</h5>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseONE" class="collapse" aria-labelledby="headingONE" data-parent="#accordionExample">
+      <div class="card-body">
+      </div>
+    </div>
+  </div>
+</div> 
         </div></div></div>
-<script type="text/JavaScript">
- var anchor = document.querySelector('a[href="#btt"]')
-var target = document.getElementById('btt')
-anchor.addEventListener('click', function (e) {
-  if (window.scrollTo) {
-    e.preventDefault()
-    window.scrollTo({'behavior': 'smooth', 'top': target.offsetTop})
-  }
-})
-</script>
- <div class="backtotop">
-        <h4><a href="#btt" style="text-decoration:none; color:white;">
-            <span class="glyphicon glyphicon-eject" aria-hidden="true" style="color:white"></span>&nbsp; Back to Top </a></h4>
-        </div>
+<button onclick="topFunction()" id="gototop" title="Go to top">Top</button>
 <footer>
 <div class="container-fluid indexfooter">
-    <div itemscope class="row">
-        <div class="hidden-xs col-md-5 indexfootername text-right" >
+    <div class="row">
+        <div class="d-none d-sm-block col-md-5 indexfootername text-right" >
             <h4><span itemprop="name"> Hoschoc  Enterprise  Co.,  Ltd.</span></h4>
-            <small>copyright © 2017 Hoschoc All rights reserved.</small></div>
-         <div class="visible-xs indexfooternamexs text-center" >
+            <small>copyright © 2017 Hoschoc All rights reserved.</small>
+            <br>ISO 22716 / ISO 9001 / SA8000 <br><br>
+            </div>
+         <div class="col-sm-12 d-block d-sm-none indexfooternamexs text-center" >
             <h4> Hoschoc  Enterprise  Co.,  Ltd.</h4>
-            <small>copyright © 2017 Hoschoc All rights reserved.</small></div>
-       <div>
-        <dl class="col-xs-12 col-md-7 dl-horizontal indexfooterinfo ">
-           <dt>E-mail</dt>
-            <dd><span itemprop="email">taffy@hoschoc.com</span></dd> 
-           <dt>TEL</dt>
-            <dd><span itmeprop="tel">886-6-2633066</span></dd> 
-           <dt>Address</dt>
-            <dd><span itemprop="address">No.29, Sec. 1, Zhonghua W. Rd., South Dist., Tainan City 702, Taiwan</span></dd></dl>
+            <small>copyright © 2017 Hoschoc All rights reserved.</small>
+             <br>ISO 22716 / ISO 9001 / SA8000<br><br>
+        </div>
+       <div class="col-md-7 d-none d-sm-block indexfooterinfo">
+        <dl class="row">
+           <dt class="col-md-2" style="text-align:right">E-mail</dt>
+            <dd class="col-md-10"><span itemprop="email">taffy@hoschoc.com</span></dd> 
+           <dt class="col-md-2" style="text-align:right">TEL</dt>
+            <dd class="col-md-10"><span itmeprop="tel">886-6-2633066</span></dd> 
+           <dt class="col-md-2" style="text-align:right">Address</dt>
+            <dd class="col-md-10"><span itemprop="address">No.29, Sec. 1, Zhonghua W. Rd., South Dist., Tainan City 702, Taiwan</span></dd></dl></div>
+        <div class="col-sm-12 d-block d-sm-none indexfooterinfoxs ">
+           <dl class="row">
+           <dt class="col-sm-12">E-mail</dt>
+            <dd class="col-sm-12"><span itemprop="email">taffy@hoschoc.com</span></dd> 
+           <dt class="col-sm-12">TEL</dt>
+            <dd class="col-sm-12"><span itmeprop="tel">886-6-2633066</span></dd> 
+           <dt class="col-sm-12">Address</dt>
+            <dd class="col-sm-12"><span itemprop="address">No.29, Sec. 1, Zhonghua W. Rd., South Dist., Tainan City 702, Taiwan</span></dd></dl>
         </div>
     </div>
     </div></footer>

@@ -3,6 +3,8 @@
     color:#fff;
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
+    font-size:25px;
+    text-align:center;
 }
 
 .indeximage{
@@ -27,7 +29,7 @@
     
 }
 .indexininxs{
-    padding-top:50px;
+    padding-top:70px;
     padding-right:30px;
     padding-left:30px;
     color:#fff;
@@ -45,7 +47,7 @@
     opacity:0.5 ;    
 }
 .indexformulaword{
-     padding-top:50px;
+     padding-top:60px;
     padding-right:30px;
     padding-left:30px;
     color:black;
@@ -93,15 +95,18 @@
     
 }
 
+.indexnews:hover{
+   opacity:0.5 ;    
+}
 .indexslogan{
     padding-top:230px;
     padding-bottom: 150px;
     font-family: 'Pattaya', sans-serif;
-    font-size: 45px;
+    font-size: 50px;
     color:#f8003d;
     letter-spacing: 2px;
     line-height: 18px;
-    padding-left: 320px;
+    padding-left: 300px;
     white-space:nowrap;
     background-image: url(/images/indexslogan.jpg);
     height:439px;
@@ -110,7 +115,7 @@
     padding-top:80px;
     padding-bottom: 80px;
     font-family: 'Pattaya', sans-serif;
-    font-size: 30px;
+    font-size: 38px;
     letter-spacing: 2px;
     line-height: 12px;
     color:white;
@@ -126,6 +131,26 @@
     font-family: 'Lato', sans-serif;
     text-align:center;
     background-color: #f8003d;
+}
+
+#gototop {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: solid; /* Remove borders */
+  border-color:white;
+  outline: none; /* Remove outline */
+  background-color: #f8003d; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#gototop:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
 
 .indexfooter{
@@ -149,6 +174,7 @@
     letter-spacing: 2px;
     border-bottom:solid;
     border-width: thin;
+    line-height: 24px;
 }
 .indexfooterinfo{
     padding-top:10px;
@@ -156,6 +182,16 @@
     color:white;
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
+    
+}
+.indexfooterinfoxs{
+    padding-top:10px;
+    padding-bottom:15px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    border-bottom:solid;
+    border-width: thin;
     
 }
 
@@ -239,29 +275,29 @@
     padding-right:30px;
     padding-left:30px;
     color:#fff;
-    font-family: Microsoft JhengHei;
+    font-family: 'Noto Serif TC', serif;
     letter-spacing: 2px; 
     line-height: 36px;
     
 }
 .twindexininxs{
-    padding-top:60px;
+    padding-top:80px;
     padding-right:30px;
     padding-left:30px;
     color:#fff;
-    font-family: Microsoft JhengHei;
+    font-family: 'Noto Serif TC', serif;
     letter-spacing: px; 
     line-height: 40px; }
     
 .twindexformulaword{
-     padding-top:50px;
+     padding-top:60px;
     padding-right:30px;
     padding-left:30px;
     color:black;
    font-family: Microsoft JhengHei;
-    font-size:18px;
+    font-size:21px;
     letter-spacing: 1px; 
-    line-height: 24px;
+    line-height: 30px;
 }
 
 .twindexformulawordsx{
@@ -272,6 +308,17 @@
     font-size:14px;
     letter-spacing: 1px; 
     line-height: 16px;
+}
+
+.twindexcontainerword{
+     padding-top:70px;
+    padding-right:30px;
+    padding-left:30px;
+    color:black;
+   font-family: Microsoft JhengHei;
+    font-size:21px;
+    letter-spacing: 1px; 
+    line-height: 30px;
 }
 
 .twindexnewsb{
@@ -319,9 +366,18 @@
     
 }
 
+.twindexfooterinfoxs{
+    padding-top:10px;
+    padding-bottom:15px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    
+}
+
 .twaboutwordh1{
     color:red;
-    font-family: Microsoft JhengHei;
+    font-family: 'Noto Serif TC', serif;
     letter-spacing: 1px;
 }
 
@@ -329,6 +385,7 @@
     font-family: Microsoft JhengHei;
     letter-spacing:1px;
     line-height: 30px;
+    color:#696969;
     
 }
 .twserviceQA{

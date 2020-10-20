@@ -16,19 +16,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Hoschoc Cosmetics">
 <link rel="author" href="google plus www.hoschoc.com/posts">
-<link href="css/bootstrap.css" rel="stylesheet" >
+<!------css------->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-grid.min.css" rel="stylesheet">
+<link href="css/bootstrap-reboot.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<!-------word--------------->
 <link href="https://fonts.googleapis.com/css?family=Lato|Spectral:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap" rel="stylesheet">
 <link rel="shortcut icon"
       href="images/hoscocicon.ico">
 <!-- facebook -->   
-<meta property="og:title" content="Hoschoc Cosmetics" >
-<meta property="og:url" content="www.hoschoc.com">
+<meta property="og:title" content="好思佳粧業" >
+<meta property="og:url" content="www.hoschoc.com.tw">
 <meta property="og:type" content="Website">
-<meta property="og:description" content="We offer cosmetic OEM/ODM and custom productions at the highest standard to meet the needs of our customers.">
+<meta property="og:description" content="好思佳為一家臺灣化妝品美妝工廠，豐富的商品系列，滿足客戶所期望的，我們竭盡所能的提供您各種彩妝與化妝品需求。">
 <!-- facebook -->  
+<!------js------->
 <script src="js/jquery-1.11.2.min.js" async></script>
-<script src="js/bootstrap.js" async></script>
+<script src="js/bootstrap.min.js" async></script>
+<script src="js/bootstrap.bundle.min.js" async></script>
+<script src="js/other.js"></script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -44,92 +52,127 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!--選單-->
 <header>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
+    <!--------一般--------->
+  <nav class="navbar navbar-expand-lg navbar-light d-none d-sm-block indexfooter fixed-top height:120px;">
+      <div class="container">
+          <a href="twindex.html" title="hoschoc homepage"><img src="images/Top_BrandHoschoc_2.png"></a>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+             <a class="nav-link" style="color:white" href="twabout_us.html" title="關於好思佳">關於好思佳</a>
+                        </li>
+        <li class="nav-item">
+      <a class="nav-link" style="color:white" href="twour_service.html" title="服務與堅持">服務與堅持</a>
+                        </li>
+        <li class="nav-item">
+         <a class="nav-link" style="color:white" href="twformula_LIPS.html" title="內料">內料</a>
+                        </li>
+         <li class="nav-item">
+         <a class="nav-link" style="color:white" href="twnews.html" title="最新消息">最新消息</a>
+                        </li>
+      <li class="nav-item"> 
+         <a class="nav-link" style="color:white" href="twcontact_us.html" title="聯絡我們">聯絡我們</a>
+                        </li>
+         <li class="nav-item"><a class="nav-link" href="index.html"  style="color:white; text-decoration:underline">English</a></li>
+    </ul>
+  </div>
+         </div></nav> 
       <!-- 移動顯示 -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a class="navbar-brand navbar-left" href="twindex.html" title="hoschoc homepage"><img src="images/Top_BrandHoschoc_2.png" class="img-responsive hidden-xs" alt="hoschoclogo"><div class="visible-xs smalltop" style="font-family: Microsoft JhengHei;">好思佳粧業股份有限公司</div></a>
+        <div class="fixed-top indexfooter d-block d-sm-none">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="p-4">
+                    <ul class="nav flex-column btn-group-vertical">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="twabout_us.html" title="關於好思佳">關於好思佳</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="twour_service.html" title="服務與堅持">服務與堅持</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="twformula_LIPS.html" title="內料">內料</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="twnews.html" title="最新消息">最新消息</a>
+                        </li>
+                         <li class="nav-item"> 
+                             <a class="nav-link" style="color:white" href="twcontact_us.html" title="聯絡我們">聯絡我們</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="index.html"  style="color:white; text-decoration:underline">English</a></li>
+                    </ul>
+    </div>
+            </div>
+            <nav class="navbar navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+                </button><div><a href="twindex.html"  class="smalltop">好思佳粧業股份有限公司</a></div>
+  </nav>
+</div>
         </div>
-      <!--按鈕內容 -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
-          <ul class="nav navbar-nav navbar-right">
-               <li><a href="twabout_us.html" title="關於好思佳">關於好思佳</a></li>
-            <li><a href="twour_service.html" title="服務與堅持">服務與堅持</a></li>
-                <li><a href="twformula_LIPS.html">內料</a></li>
-                <li><a href="twnews.html">最新消息</a></li>
-            	<li><a href="twcontact_us.html">聯絡我們</a></li>
-               <li style="text-decoration:underline"><a href="index.html">English</a></li>
-            </ul>
-      </div></div></nav></header>
+    </header>
  <!--內容-->
 <div id="btt"></div>
 <div style="height:100px"></div>
 <div>
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-md-3">
-           <ul class="nav nav-pills nav-stacked">
-               <li role="presentation" class="active"><a href="#sec1">公司簡介</a></li>
-               <li role="presentation"><a href="#sec2">經營理念</a></li>
-               <li role="presentation"><a href="#sec3">企業規模及經營管理團隊</a></li>
-                <li role="presentation"><a href="#sec4">企業核心價值及未來展望</a></li>
-            </ul>
+        <div class="col-sm-12 col-md-3">
+                  <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active"  href="#sec1" data-toggle="tab"role="tab" aria-selected="true">公司簡介</a>
+      <a class="nav-link"  href="#sec2" aria-selected="false">經營理念</a>
+      <a class="nav-link"  href="#sec3"  aria-selected="false">企業規模及經營管理團隊</a>
+      <a class="nav-link"  href="#sec4"  aria-selected="false">核心價值及未來展望</a>
+            </div>
         </div>
-        <div class="col-xs-12 col-md-9">
+        <div class="col-sm-12 col-md-9">
             <a id="sec1"></a>
-            <img src="images/About_company.jpg" class="aboutimage img-responsive"
+            <img src="images/About_company.jpg" class="aboutimage img-fluid"
                  alt="hoschoc factory">
-        <div class="twaboutwordh1"><h1>公司簡介<br></h1>
-            <h3>好思佳粧業股份有限公司<br></h3></div>
-            <h4><article class="twaboutinner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我們是一家充滿活力的化妝品美妝工廠，我們擁有豐富的產品系列，專業認真的人員，滿足客戶對於化妝品的需求，量身訂做包含各層次及價位，另外我們擁有獨立的設計部門，能提供您快速實現商品化。<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;積極推進各種合作方式，無論從商品設計、內容物、配件、包材的安排，到高規格生產製程，與您們的合作是我們的榮幸。</article></h4>
+        <div class="twaboutwordh1"><h2><br>公司簡介<br></h2>
+            <h4>好思佳粧業股份有限公司<br></h4></div>
+            <h5><article class="twaboutinner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我們是一家充滿活力的化妝品美妝工廠，我們擁有豐富的產品系列，專業認真的人員，滿足客戶對於化妝品的需求，量身訂做包含各層次及價位，另外我們擁有獨立的設計部門，能提供您快速實現商品化。<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;積極推進各種合作方式，無論從商品設計、內容物、配件、包材的安排，到高規格生產製程，與您們的合作是我們的榮幸。</article></h5>
 
          <div style='height:100px;'></div>
      
          <a id="sec2"></a>
-            <img src="images/twabout_ms.jpg" class="aboutimage img-responsive" alt="factoryphoto">
+            <div class="text-center"><img src="images/twabout_ms.jpg" class="aboutimage img-fluid " alt="factoryphoto"></div>
             <div style='height:10px;'></div>
-        <div class="twaboutwordh1"><h1>經營理念<br></h1>
+        <div class="twaboutwordh1"><h2>經營理念<br></h2>
         </div>
-        <h4><section class="twaboutinner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好思佳成立於2015年註冊資金375萬美元，座落在美麗之島(福爾摩沙)名聞遐邇的文化古都－台南。<br>
+        <h5><section class="twaboutinner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好思佳成立於2015年註冊資金375萬美元，座落在美麗之島(福爾摩沙)名聞遐邇的文化古都－台南。<br>
             這是台灣最早開發的城市，擁有深厚文化底子，大小不一38項國家級古蹟散佈其中成為台灣人文最有特色城市，也是小吃最多樣化的城市，人民熱情、善良、勤奮而且做事認真，但人生觀卻又樂天知命，好思佳在此氛圍蘊育出了三項經營理念，那就是<b>真誠、用心及專業。</b><br><br>
             <li><b>真誠</b> – 基於人生而平等的概念我們不只希望在勞資合諧下，讓員工有歸屬感，而且在平等互惠下能讓支持的廠商感到驕傲讓客戶安心及滿意，我們更真心誠意、欣喜態度接待每一個蒞臨好思佳的客人，不管規模大小，無論訂單多寡都是我們真誠服務的對象，我們深信真心的笑容終能獲得真誠回應！</li>
             <li><b>用心</b> – 我們深信機會如一隻飛翔的蝴蝶是停在有準備的人的身上因此對內料研發、測試、包材的設計開發及二者製程掌控品質制度的落實(日本厚生省藥事法規，歐洲EEC標準及美國FDA標準及台灣GMP標準)，我們均競競業業確實執行，務使每一項產品均視如自己面對消費者苛求態度來要求，不只以客戶甚至是以消費者滿意為依歸嚴格把關，追求完美止於至善。</li>
             <li><b>專業</b> – 化妝品是一項追求美的事業，但卻也是非常競爭的行業，為了不停提升我們競爭力，我們不停增加好的設施及更有經驗的人員以及嚴謹的各項制度，也透過不停的教育訓練使所有成員均能在本業上精進而專業，而在態度上則回歸初心，謙虛、誠懇，相信透過不斷PDCA循環流程的進行，我們的產品及服務會臻於更高層階段而獲得客戶及消費者讚賞的掌聲！</li>
-</section></h4>
+</section></h5>
 
          <div style='height:100px;'></div>
     
             <a id="sec3"></a>
-            <img src="images/About_factory.jpg" class="aboutimage img-responsive">
-        <div class="twaboutwordh1"><h1>企業規模及經營管理團隊<br></h1>
-            <h3>
-              好思佳成立的宗旨是希望全世界的女人均可以買得起自己喜歡，好品質的化妝品，擁有一個自信的臉孔，開展她自己璀璨的人生。</h3>
+            <img src="images/About_factory.jpg" class="aboutimage img-fluid">
+        <div class="twaboutwordh1"><h2><br>企業規模及經營管理團隊<br></h2>
+            <h4>
+              好思佳成立的宗旨是希望全世界的女人均可以買得起自己喜歡，好品質的化妝品，擁有一個自信的臉孔，開展她自己璀璨的人生。</h4>
             </div>
-           <h4><section class="twaboutinner"> 
+           <h5><section class="twaboutinner"> 
     &nbsp;&nbsp;&nbsp;&nbsp;為此我們經歷二年建設，完成了占地5000ｍ２的廠房（使用面積8000ｍ２）及10萬級空氣淨化潔淨空間，我們除了引進國際先進生產設備及檢測儀器更聚集為各項這個領域專精人才<br><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;我們創辦人Attlle Shen在台灣更是少數擁有工廠管理、產品設計及品牌整合的完整35年資歷(至2018年5月止)10歲因為父親辦廠而啟蒙化妝品的製造，83年正式投身這個行業而且偕同父親進行了企業改造工作(制度化、自動化)使公司獲利呈倍數成長，完成第一階段資金累積工作，92年率先海外設廠大大增加企業競爭力，曾二次將這個家族企業推向領導地位(90年及2000年)，03變換角色不做生產卻在幾年間透過其整合能力讓日本一家便宜百元店的化妝品起死回生，甚至其幾項產品均打敗各大品牌位居排行榜前三名，造成轟動及廣大話題，在其領到下我們不斷精進團隊，我們產品開發設計(含包材、目錄、展架等)、內料研發、財務支援(成本核計、電腦化)、業務及服務團隊(法規)，雖然年輕(40歲以下)但也均具至少6年以上這個領域的臨場經驗足以解決客戶任何產品上問題及滿足客戶各項要求。<br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;我們創辦人Attlee Sheng在台灣更是少數擁有工廠管理、產品設計及品牌整合的完整35年資歷(至2018年5月止)10歲因為父親辦廠而啟蒙化妝品的製造，83年正式投身這個行業而且偕同父親進行了企業改造工作(制度化、自動化)使公司獲利呈倍數成長，完成第一階段資金累積工作，92年率先海外設廠大大增加企業競爭力，曾二次將這個家族企業推向領導地位(90年及2000年)，03變換角色不做生產卻在幾年間透過其整合能力讓日本一家便宜百元店的化妝品起死回生，甚至其幾項產品均打敗各大品牌位居排行榜前三名，造成轟動及廣大話題，在其領到下我們不斷精進團隊，我們產品開發設計(含包材、目錄、展架等)、內料研發、財務支援(成本核計、電腦化)、業務及服務團隊(法規)，雖然年輕(平均40歲以下)但也均具至少6年以上這個領域的臨場經驗足以解決客戶任何產品上問題及滿足客戶各項要求。<br><br>
     &nbsp;&nbsp;&nbsp;&nbsp;為了保證品質與管理，我們已於2018年通過ISO22716與ISO9001認證、並於2019年通過SA8000認證，並藉由ERP電腦化執行，邁向工業4.0與大數據時代的目標，提供客戶更為迅速確實及具競爭力的服務!
-</section></h4>
+</section></h5>
              <div style='height:100px;'></div>
             
                        <a id="sec4"></a>
-            <img src="images/about_future.jpg" class="aboutimage img-responsive">
-        <div class="twaboutwordh1"><h1>企業核心價值及未來展望<br></h1>
+            <img src="images/about_future.jpg" class="aboutimage img-fluid">
+        <div class="twaboutwordh1"><h2><br>企業核心價值及未來展望<br></h2>
             </div>
-           <h4><section class="twaboutinner"> 
+           <h5><section class="twaboutinner"> 
                &nbsp;&nbsp;&nbsp;&nbsp;<li>人為企業根本，我們非常重視在好思佳的每一位成員，他們年輕可塑性高、應變能力強雖然資歷豐富但卻都能以真誠態度對待每一個客戶最溫馨的服務。我們總經理非常強調整體性服務，因為早在87年開始他即從事產品設計工作，所以我們有培養非常強的團隊為品牌設計的產品除獲得多項專利外，更讓客戶不只獲利且拋開競爭。</li><br>
                <li>有別於其他工廠只單純作充填工作，為您的品牌作精準的全方位服務，不管是包材、內料開發甚至紙盒、背卡、展架、展櫃的設計製作都可依據客戶的市場定位做迅速整合包裝，讓客戶專心於市場開拓而無後顧之憂。</li><br>
                <li>這是一個以快制慢，講求速度時代所以除了我們有日本研發顧問團諮詢外，我們成立情報單位會及世界最新彩粧及彩底資訊及流行色彩，透過學校產學合作及原料廠精準最新原料提供及研發團隊努力，務使第一手資料落實研發成為客戶永遠領先地位「創新或死亡」是我們奉為先  一致努力達成在彩粧領域的不落人後甚至後來居上!</li><br>
                <li>好思佳在中文文字意義上就是積極、正面的思維面對一切挑戰，而英文以HO開頭就是”Home”的意思，意即用真誠的心與客戶如家人般感情維繫再一起，我們認為生命本身就是一個奇蹟能相遇更是難得緣分，我們會更珍惜每一次的緣分更用心、專業經營本業，務使客戶滿意安心，我們期待您的蒞臨指導及共創璀璨未來!</li>
 
-</section></h4>
+</section></h5>
              <div style='height:100px;'></div>
             
         </div>
@@ -137,39 +180,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     </div>
 </div>
-<script type="text/JavaScript">
- var anchor = document.querySelector('a[href="#btt"]')
-var target = document.getElementById('btt')
-anchor.addEventListener('click', function (e) {
-  if (window.scrollTo) {
-    e.preventDefault()
-    window.scrollTo({'behavior': 'smooth', 'top': target.offsetTop})
-  }
-})
-</script>
- <div class="backtotop">
-        <h4><a href="#btt" style="text-decoration:none; color:white;font-family: Microsoft JhengHei;">
-            <span class="glyphicon glyphicon-eject" aria-hidden="true" style="color:white"></span><strong>&nbsp; 回上方</strong> </a></h4>
-        </div>
+<button onclick="topFunction()" id="gototop" title="Go to top">TOP</button>
 <footer>
 <div class="container-fluid indexfooter">
-    <div itemscope class="row">
-        <div class="hidden-xs col-md-5 twindexfootername text-right" >
+    <div class="row">
+        <div class="d-none d-sm-block col-md-5 twindexfootername text-right" >
             <h4><span itemprop="name"> 好思佳粧業股份有限公司</span></h4>
-            <small>copyright © 2017 Hoschoc All rights reserved.</small></div>
-         <div class="visible-xs twindexfooternamexs text-center" >
+            <small>copyright © 2017 Hoschoc All rights reserved.</small>
+            <br>ISO 22716 / ISO 9001 / SA8000 <br><br>
+            </div>
+         <div class="col-sm-12 d-block d-sm-none twindexfooternamexs text-center" >
             <h4> 好思佳粧業股份有限公司</h4>
-            <small>copyright © 2017 Hoschoc All rights reserved.</small></div>
-       <div>
-        <dl class="col-xs-12 col-md-7 dl-horizontal indexfooterinfo ">
-           <dt>E-mail</dt>
-            <dd><span itemprop="email">taffy@hoschoc.com</span></dd> 
-           <dt>TEL</dt>
-            <dd><span itmeprop="tel">886-6-2633066</span></dd> 
-           <dt>Address</dt>
-            <dd><span itemprop="address">70266臺南市中華西路一段29號　</span></dd></dl>
+            <small>copyright © 2017 Hoschoc All rights reserved.</small>
+             <br>ISO 22716 / ISO 9001 / SA8000<br><br>
+        </div>
+       <div class="col-md-7 d-none d-sm-block twindexfooterinfo">
+        <dl class="row">
+           <dt class="col-md-2" style="text-align:right">E-mail</dt>
+            <dd class="col-md-10"><span itemprop="email">taffy@hoschoc.com</span></dd> 
+           <dt class="col-md-2" style="text-align:right">TEL</dt>
+            <dd class="col-md-10"><span itmeprop="tel">886-6-2633066</span></dd> 
+           <dt class="col-md-2" style="text-align:right">地址</dt>
+            <dd class="col-md-10"><span itemprop="address">70266臺南市南區中華西路一段29號</span></dd></dl></div>
+        <div class="col-sm-12 d-block d-sm-none twindexfooterinfoxs">
+           <dl class="row">
+           <dt class="col-sm-12">E-mail</dt>
+            <dd class="col-sm-12"><span itemprop="email">taffy@hoschoc.com</span></dd> 
+           <dt class="col-sm-12">TEL</dt>
+            <dd class="col-sm-12"><span itmeprop="tel">886-6-2633066</span></dd> 
+           <dt class="col-sm-12">地址</dt>
+            <dd class="col-sm-12"><span itemprop="address">70266臺南市南區中華西路一段29號</span></dd></dl>
         </div>
     </div>
-    </div></footer>
+    </div>
+    </footer>
 </body>
 </html>
