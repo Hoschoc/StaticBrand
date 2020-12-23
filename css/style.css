@@ -1,9 +1,21 @@
 @charset "utf-8";
+
+.newnew{
+    position: absolute;
+    top:16px;
+    left:0;
+    background:Crimson;
+    color:white;
+    width:60px;
+    height:24px;
+    text-align:center;
+}
+
 .smalltop{
     color:#fff;
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
-    font-size:25px;
+    font-size:24px;
     text-align:center;
 }
 
@@ -270,6 +282,14 @@
 
 }
 
+.twsmalltop{
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-size:20px;
+    text-align:center;
+}
+
 .twindexinin{
     padding-top:100px;
     padding-right:30px;
@@ -389,7 +409,7 @@
     
 }
 .twserviceQA{
-   font-family: Microsoft JhengHei;
+   font-family: 'Noto Serif TC', serif;
     background-color: #fe6805;
     color:white;
     letter-spacing:1px;
@@ -402,7 +422,7 @@
     background-color: #f1825c;
     color:white;
     letter-spacing:1px;
-    line-height:18px;
+    line-height:24px;
     border-radius: 3px;
     padding-left: 10px;
     padding-right: 10px;
@@ -414,3 +434,44 @@
     font-family: Microsoft JhengHei;
     color:#f8003d;
 }
+
+#loader {
+          background-image:url(/images/loading.gif);
+          background-position: center center;
+          background-repeat: no-repeat;
+          height: 120px;
+          left: 50%;
+          margin: -100px 0 0 -50px;
+          position: absolute;
+          top: 50%;
+          width: 120px;
+        }
+
+        @-webkit-keyframes spin {
+          0% { -webkit-transform: rotate(0deg); }
+          100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+
+        /* Add animation to "page content" */
+        .animate-bottom {
+          position: relative;
+          -webkit-animation-name: animatebottom;
+          -webkit-animation-duration: 1s;
+          animation-name: animatebottom;
+          animation-duration: 1.5s
+        }
+
+        @-webkit-keyframes animatebottom {
+          from { bottom:-100px; opacity:0 } 
+          to { bottom:0px; opacity:1 }
+        }
+
+        @keyframes animatebottom { 
+          from{ bottom:-100px; opacity:0 } 
+          to{ bottom:0; opacity:1 }
+        }
