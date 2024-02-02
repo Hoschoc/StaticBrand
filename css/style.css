@@ -36,7 +36,7 @@
 }
 
 .indexin{
-    background-image: url(/images/indexdescription.jpg);
+    background-image: url(/images/indexdescription.webp);
     height:500px;
     background-color: #f8003d;
     
@@ -132,7 +132,7 @@
     line-height: 18px;
     padding-left: 300px;
     white-space:nowrap;
-    background-image: url(/images/indexslogan.jpg);
+    background-image: url(/images/indexslogan.webp);
     height:439px;
 }
 .indexsloganxs{
