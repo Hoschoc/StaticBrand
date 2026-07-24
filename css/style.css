@@ -13,6 +13,17 @@ html {
     height:24px;
     text-align:center;
 }
+.blush{
+    position: absolute;
+    top:16px;
+    left:0;
+    background:#FA8072;
+    color:white;
+    width:100px;
+    height:24px;
+    text-align:center;
+    font-size:14px;
+}
 .cleanbeauty{
     background-color:#f9be7a;
     color:white;
